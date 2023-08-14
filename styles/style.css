@@ -1,24 +1,32 @@
 p {
-  height: 50%;
-  font-size: 2em;
+  text-align: center;
+  font-size: 4.5vh;
   margin: 0;
+}
+
+.inner-block {
+  height: 50%;
+  margin: auto;
 }
 
 .container {
   background-color: grey;
-  height: 97vh;
+  height: 70vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
+  margin: 0;
+  width: 100%;
 }
 .block {
+  overflow: hidden;
   color: rgb(24, 22, 22);
   height: 12vh;
   max-width: 500px;
-  box-sizing: border-box;
+  display: flex;
+  /* justify-content: center; */
 }
-
 #blk1 {
   background-color: green;
   width: 15vw;
