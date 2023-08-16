@@ -5,15 +5,15 @@ p {
 }
 
 .inner-block {
-  height: 50%;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .container {
   background-color: grey;
   height: 70vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   margin: 0;
@@ -22,24 +22,25 @@ p {
 .block {
   overflow: hidden;
   color: rgb(24, 22, 22);
-  height: 12vh;
+  height: 19vh;
   max-width: 500px;
   display: flex;
+  border: solid 2px blue;
   /* justify-content: center; */
 }
 #blk1 {
-  background-color: green;
+  /* background-color: green; */
   width: 15vw;
 }
 #blk2 {
-  background-color: rgba(0, 0, 255, 0.541);
-  width: 20vw;
+  /* background-color: rgba(0, 0, 255, 0.541); */
+  width: 15vw;
 }
 #blk3 {
-  background-color: cornsilk;
-  width: 25vw;
+  /* background-color: cornsilk; */
+  width: 15vw;
 }
 #blk4 {
-  background-color: rgba(153, 145, 31, 0.774);
-  width: 30vw;
+  /* background-color: rgba(153, 145, 31, 0.774); */
+  width: 15vw;
 }
