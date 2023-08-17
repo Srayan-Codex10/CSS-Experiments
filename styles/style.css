@@ -4,44 +4,36 @@ p {
   margin: 0;
 }
 
-.inner-block {
-  margin: auto;
-  box-sizing: border-box;
-}
-
 .container {
-  background-color: grey;
-  height: 70vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   margin: 0;
   width: 100%;
-  background-image: linear-gradient(291deg, #25233bab, #d5cbcb66);
+  height: 97vh;
+  background-image: radial-gradient(circle, #9b94e7ab, #6d849b66);
 }
+
+.inner-block {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  /* z-index: -1; */
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .block {
-  overflow: hidden;
   color: rgb(24, 22, 22);
-  height: 19vh;
-  max-width: 500px;
-  display: flex;
-  border: solid 2px #807683de;
+  height: 29vh;
+  width: 22vw;
+  /* max-width: 500px; */
+  /* display: flex; */
+  /* border: solid 2px #807683de; */
   /* justify-content: center; */
-}
-#blk1 {
-  /* background-color: green; */
-  width: 15vw;
-}
-#blk2 {
-  /* background-color: rgba(0, 0, 255, 0.541); */
-  width: 15vw;
-}
-#blk3 {
-  /* background-color: cornsilk; */
-  width: 15vw;
-}
-#blk4 {
-  /* background-color: rgba(153, 145, 31, 0.774); */
-  width: 15vw;
 }
